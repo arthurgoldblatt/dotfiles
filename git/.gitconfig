@@ -1,0 +1,12 @@
+[user]
+	name = Arthur Goldblatt
+	email = arthur.h.goldblatt@gmail.com
+
+[core]
+	editor = vim
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = auto
