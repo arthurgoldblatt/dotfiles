@@ -5,6 +5,7 @@ brew "ripgrep"
 brew "fd"
 brew "fzf"
 brew "jq"
+brew "tlrc"
 brew "tree"
 
 cask "ghostty"
