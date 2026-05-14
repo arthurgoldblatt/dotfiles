@@ -22,3 +22,8 @@ fi
 if [ -f /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
   source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
+
+# Prompt
+if [[ "${TERM:-}" != "dumb" ]] && command -v starship >/dev/null 2>&1; then
+  eval "$(starship init zsh)"
+fi
