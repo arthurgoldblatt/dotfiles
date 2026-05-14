@@ -1,0 +1,10 @@
+brew "chezmoi"
+brew "git"
+brew "gh"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+brew "jq"
+brew "tree"
+
+cask "ghostty"
