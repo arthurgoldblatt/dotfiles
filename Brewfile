@@ -10,5 +10,6 @@ brew "tlrc"
 brew "tree"
 brew "uv"
 brew "zoxide"
+brew "zsh-autosuggestions"
 
 cask "ghostty"

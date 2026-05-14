@@ -3,6 +3,11 @@ if [[ -t 0 ]] && command -v fzf >/dev/null 2>&1; then
   eval "$(fzf --zsh)"
 fi
 
+# Suggestions
+if [ -f /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+  source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
+
 # mise
 if command -v mise >/dev/null 2>&1; then
   eval "$(mise activate zsh)"
