@@ -1,0 +1,12 @@
+[user]
+	name = Arthur Goldblatt
+	email = arthur.h.goldblatt@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+	excludesfile = /Users/arthurgoldblatt/.gitignore_global
+[color]
+	ui = auto
+[pull]
+	rebase = true
