@@ -11,5 +11,6 @@ brew "tree"
 brew "uv"
 brew "zoxide"
 brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 
 cask "ghostty"
