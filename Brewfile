@@ -9,5 +9,6 @@ brew "mise"
 brew "tlrc"
 brew "tree"
 brew "uv"
+brew "zoxide"
 
 cask "ghostty"
