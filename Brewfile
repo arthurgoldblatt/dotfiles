@@ -1,5 +1,6 @@
 brew "chezmoi"
 brew "git"
+brew "git-crypt"
 brew "gh"
 brew "ripgrep"
 brew "fd"
